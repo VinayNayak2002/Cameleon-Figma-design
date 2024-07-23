@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameleon</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Page start -->
+<div class="screen">
+
+<!-- Sidebar panel -->
+<div class="sidebar">
+    <img class= "logo" src="resources/Logo.svg" alt="logo" width="125px">
+
+    <div class="menu-container">
+        <div class="main-menu">
+            <p>MAIN MENU</p>
+            <div class="anchor">
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Category.svg" alt="logo"><span id="dash-font">Dashboard</span></a> </div>
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Message.svg" alt="logo"><span class="span-bubble">Messages <div class="msg-icon"> <p id="msg-new">3 new</p></div></span></a> </div>
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Paper.svg" alt="logo"><span>Reports</span></a> </div>
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Notification.svg" alt="logo"><span>Notifications</span></a> </div>
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Wallet.svg" alt="logo"><span class="invoice-bubble">Invoices <div class="invoice-icon"> <p id="invoice-new"> 10+ </p></div> </span></a> </div>
+            </div>  
+
+            <div id="dashedline"></div>
+        </div>
+        <div class="works-menu">
+            <p>WORKS</p>
+            <div class="anchor">
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Bookmark.svg" alt="logo"><span>Bookmarks</span></a> </div>
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Video.svg" alt="logo"><span>Confereces</span></a> </div>
+            </div>
+            
+            <div id="dashedline"></div>
+        </div>
+        <div class="options-menu">
+            <p>OPTIONS</p>
+            <div class="anchor">
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Setting.svg" alt="logo"><span>Settings</span></a> </div>
+                <div class="items-logo"> <a><img class="menu-logos" src="resources/Bulk/Info Square.svg" alt="logo"><span>About</span></a> </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="light-button">
+        <div class="light-mode-icon"><img class="light-icon-sun" src="resources/lightsun.svg" alt="lightmode"></div>
+        <div class="light-mode"><p>LIGHT MODE</p></div>
+    </div>
+
+
+
+</div>
+
+<!-- Main dashboard -->
+<div class="dashboard">
+    <div class="navbar">
+
+        <div class="search-container">
+            <input class="input-box" placeholder="   Search...  ">
+            <img class="magnify-icon" src="resources/Iconly/Search.svg" alt="logo">
+        </div>
+
+        <div class="navitems">
+            <p>Analytics</p>
+            <p>Earnings</p>
+            <p>Ads Experiments</p>
+        </div>
+
+        <img id="noti" src="resources/Bulk/Notification.svg" alt="logo">
+
+        <div class="profile-detail">
+            <div class="profile-pic"> 
+                <img src="resources/profilepic.svg" alt="">
+                <div class="online-logo"></div>
+            </div>
+
+            <div class="profile-name">
+                <p>Welcome</p> 
+                <p>Daniel Estasmos <span><img src="resources/Bold/Arrow - Down 2.svg" alt="logo" height="16px"></span></p>
+            </div>
+        </div>  
+    </div>
+
+    <div class="dashtext">
+        <p>Dashboard</p>
+    </div>
+
+    <div class="performancetab motherbox">
+
+        <div class="siteperform-container">
+            <div>
+                <p class="font-grey-big">Site Performance</p>
+                <p class="font-grey-small">Today vs 7 days ago</p>
+            </div>
+            <div class="calendar">
+                <img src="resources/Bulk/Calendar.svg" alt="logo">
+                <div class="date"><p>JUNE 03, 22 TO JULY 02, 22</p></div>
+            </div>
+        </div>
+        
+
+        <div class="boxcontainer">
+            <div class="box1 box" id="clickedbox">
+                <div class="top">
+                    <p>Visitors</p>
+                    <img src="resources/box icons/Activity.svg" alt="logo">
+                </div>
+                <div class="middle">
+                    <p>92,620</p>
+                </div>
+                <div class="bottom">
+                    <p>+3,840 (26,80%)</p>
+                    <img src="resources/box icons/Swap.svg" alt="logo">
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="top">
+                    <p>Page Views</p>
+                    <img src="resources/box icons/Show.svg" alt="logo">
+                </div>
+                <div class="middle">
+                    <p>580.5k</p>
+                </div>
+                <div class="bottom">
+                    <p>+210k (16,20%)</p>
+                    <img src="resources/greenswap/Swap.svg" alt="logo">
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="top">
+                    <p>Bounce rates</p>
+                    <img src="resources/box icons/Chart.svg" alt="logo">
+                </div>
+                <div class="middle">
+                    <p>15.43%</p>
+                </div>
+                <div class="bottom">
+                    <p>-0.74 (0.74%)</p>
+                    <img src="resources/redswap/Swap.svg" alt="logo">
+                </div>
+            </div>
+
+            <div class="viewall">
+                <p>View All <img src="resources/Iconly/Arrow - Right 2.svg" alt="logo"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-stats motherbox">
+        <div class="siteperform-container">
+            <div>
+                <p class="font-grey-big">User statistics</p>
+                <p class="font-grey-small">Today's statistics</p>
+            </div>
+            <div class="calendar">
+                <img src="resources/Bulk/Calendar.svg" alt="logo">
+                <div class="date"><p>JUNE 03, 22 TO JULY 02, 22</p></div>
+            </div>
+        </div>
+
+        <div class="boxcontainer">
+            <div class="box4 box">
+                <img src="resources/box icons/graphstat.svg" alt="">
+            </div>
+            <div class="box5 box">
+                <div class="top">
+                    <p>New users</p>
+                    <img src="resources/box icons/Add User.svg" alt="logo">
+                </div>
+                <div class="middle">
+                    <p>17,805</p>
+                </div>
+                <div class="bottom">
+                    <p>+1,500 (4,17%)</p>
+                </div>
+            </div>
+            <div class="box6 box">
+                <div class="top">
+                    <p>Online users</p>
+                    <img src="resources/box icons/Activity.svg" alt="logo">
+                </div>
+                <div class="middle">
+                    <p>1,846</p>
+                </div>
+                <div class="bottom">
+                    <p>+530 (8.38%)</p>
+                </div>
+            </div>
+
+            <div class="viewall">
+                <p>View All <img src="resources/Iconly/Arrow - Right 2.svg" alt="logo"></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+<!-- Page end -->
+
+</body>
+</html>

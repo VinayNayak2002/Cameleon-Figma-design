@@ -1,0 +1,414 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Inter", sans-serif;
+}
+
+.screen {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #171B2D;
+    height: 100vh;
+    width: 35vh;
+    border-right: 1.5px solid #E1E4F214;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.menu-container {
+    height: 60%;
+    width: 75%;
+    margin-top: 35px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.anchor {
+    display: flex;
+    flex-direction: column;
+}
+
+.anchor .items-logo a {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.anchor .items-logo a span {
+    margin-left: 10px;
+    color:#ADB3CC;
+}
+
+.menu-container p {
+    color:#55597D;
+}
+
+#dash-font {
+    color:#42BBFF;
+}
+
+
+.menu-logos {
+    height: 20px;
+    width: 20px;
+}
+
+.menu-container div p {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.menu-container div a {
+    font-size: 11px;
+}
+
+.msg-icon {
+    height: 20px;
+    width: 45px;
+    background-color: #0C3247;
+    border-radius: 26px;
+    padding: 2px, 6px, 2px, 6px;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-bubble {
+    display: flex;
+    align-items: center;
+}
+
+#msg-new {
+    color: #42BBFF;
+    font-size: 10px;
+
+}
+
+.invoice-bubble {
+    display: flex;
+    align-items: center;
+}
+
+.invoice-icon {
+    height: 18px;
+    width: 35px;
+    background-color: #F52D20;
+    border-radius: 26px;
+    padding: 2px, 6px, 2px, 6px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#invoice-new {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    font-weight: 500;
+    align-self: center;
+}
+
+#dashedline {
+    width: 220px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border-bottom: 2px dashed rgba(85, 89, 125, 0.25);
+}
+
+.light-button {
+    height: 25px;
+    width: 37%;
+    align-self: flex-start;
+    margin-top: 15vh;
+    margin-left: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-icon-sun {
+    height: 20px;
+    width: 20px;
+}
+
+.light-mode {
+    color: #55597D;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+/*Rigght Dashboard*/
+.dashboard {
+    background-color: #171B2D;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    height: 30px;
+    width: 370px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1D2032;
+}
+
+.input-box {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #50556A;
+    background-color: #1D2032;
+}
+
+
+.magnify-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.navitems {
+    color: #50556A;;
+    display: flex;
+    font-size: 15px;
+    position: relative;
+    left: -100px;
+}
+
+.navitems p {
+    margin-left: 40px;
+}
+
+#noti {
+    position: relative;
+    left: 80px;
+}
+
+.profile-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 170px;
+    margin-right: 20px;
+}
+
+.profile-name {
+    color: #55597D
+}
+
+.profile-name p {
+    display: flex;
+    align-items: center;
+}
+
+.profile-detail p {
+    font-size: 12px;
+}
+
+.profile-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: #42BBFF;
+}
+
+.online-logo {
+    height: 8px;
+    width: 8px;
+    background-color: #05EF63;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    left: 27px;
+    bottom: 7px;
+}
+
+.dashtext {
+    height: 35px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.dashtext p {
+    font-size: 27px;
+    color: #ADB3CC;
+}
+
+.font-grey-big {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ADB3CC;
+}
+
+.font-grey-small {
+    font-size: 10px;
+    font-weight: 400;
+    color: #585F80;
+}
+
+.motherbox {
+    height: 250px;
+    width: 900px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.siteperform-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 165px;
+    margin-right: 220px;
+    color: #55597D
+}
+
+.calendar img {
+    height: 20px;
+    width: 20px;
+}
+
+.date p {
+    font-size: 10px;
+}
+
+.boxcontainer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;   
+}
+
+.box {
+    height: 140px;
+    width: 220px;
+    margin-left: 10px; 
+    background-color: #1A1E30;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+#clickedbox {
+    background-color: #0329E8;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ADB3CC;
+}
+
+.box5 .middle{
+    color: #585F80;
+}
+
+.box6 .middle{
+    color: #585F80;
+}
+
+.box2 .bottom {
+    color: #05EF63;
+}
+
+.box5 .bottom {
+    color: #05EF63;
+}
+
+.box6 .bottom {
+    color: #05EF63;
+}
+
+.box3 .bottom {
+    color: #F52D20;
+}
+
+
+.box1 p {
+    color: white;
+}
+
+.box1 img {
+    height: 23px;
+    width: 23px;
+}
+
+.box1 .top p {
+    color: #DDEFFA
+}
+
+.middle {
+    font-size: 40px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #17B1EA;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.box5 img {
+    height: 23px;
+    width: 23px;
+}
+
+.box6 img {
+    height: 23px;
+    width: 23px;
+}
+
+.viewall {
+    height: 20px;
+    width: 80px;
+    color: #42BBFF;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 24px;
+}
